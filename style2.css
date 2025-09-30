@@ -1,0 +1,429 @@
+html,
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* HOME */
+
+.img {
+    margin-top: 6px;
+    margin-right: 25px;
+}
+
+.tl,
+#tl {
+    margin-top: 25px;
+    height: 84px;
+    height: 3%;
+}
+
+.thh{
+    height: 1%;
+}
+
+#thh{
+    height: 1%;
+}
+
+#tl {
+
+    color: #ffffff;
+    font-size: 4.3rem;
+    font-family: "Trirong", serif;
+    font-weight: 800;
+    margin-left: 30px;
+
+}
+
+#tll {
+
+    color: #ffffff;
+    font-size: 4.3rem;
+    font-family: "Trirong", serif;
+    font-weight: 800;
+    margin-left: 104px;
+
+}
+
+.cl {
+    height: 1%;
+}
+
+.mh {
+    margin-top: 75px;
+    margin-left: 34px;
+}
+
+
+.table {
+    height: 1%;
+}
+
+
+
+
+/* OVERHANG */
+
+
+#vb {
+    margin-top: 10px;
+    font-size: 3rem;
+    color: #ffffff;
+    font-family: "Trirong", serif;
+    text-align: center;
+    font-weight: 600;
+    height: 10%;
+
+}
+
+#vbb {
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: "Trirong", serif;
+    text-align: center;
+    font-weight: 300;
+    height: 10%;
+
+
+}
+
+.ipbox {
+    margin-top: 185px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10%;
+
+}
+
+
+.sc {
+
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    height: 5%;
+
+
+}
+
+.opbox {
+
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    height: 10%;
+    /* margin-right: 420px; */
+
+}
+
+
+#x,
+#y,
+#z,
+#ox,
+#oy,
+#oz,
+#o,
+#sb {
+
+    background-color: aliceblue;
+    border: solid;
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#sb {
+
+    background-color: rgb(62, 156, 62);
+    font-weight: 500;
+    border: solid;
+    font-weight: 900;
+
+}
+
+#ssb {
+
+    background-color: rgb(62, 156, 62);
+    font-weight: 500;
+    border: solid;
+    font-weight: 900;
+    margin-left: 20px;
+
+
+}
+
+
+
+@media only screen and (max-width:480px) {
+    .ipbox {
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+
+    }
+
+
+
+
+    .opbox {
+
+        flex-wrap: wrap;
+
+
+    }
+
+
+    .sc {
+
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #ssb {
+
+        height: 40px;
+        width: 100px;
+        border: solid;
+        border-radius: 8px;
+
+    }
+
+    h1 {
+        margin-top: 30px;
+    }
+
+    #y {
+        margin-top: 10px;
+    }
+
+    #z {
+        margin-top: 10px;
+    }
+
+    #o {
+        margin-top: 10px;
+    }
+
+
+    #oy {
+        margin-top: 10px;
+    }
+
+    #oz {
+        margin-top: 10px;
+    }
+
+    #sb {
+        display: none;
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
+#og {
+    background-color: rgb(143, 28, 209);
+    border: #000;
+    font-weight: 800;
+    border-radius: 25px;
+    height: 120px;
+    width: 180px;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+
+
+#pd {
+    background-color: rgb(143, 28, 209);
+    border: #000;
+    font-weight: 800;
+    border-radius: 25px;
+    height: 120px;
+    width: 180px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 210px;
+
+}
+
+
+@media only screen and (max-width:480px) {
+
+
+
+    #og {
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 320px;
+    }
+
+    #pd {
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 50px;
+        height: 70px;
+        width: 320px;
+    }
+
+
+}
+
+img {
+    height: 50px;
+    margin: 0;
+    margin-left: 75%;
+
+
+}
+
+
+
+/* CSS */
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 11px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 21.5px;
+    justify-content: center;
+    line-height: 1em;
+    width: 360px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 720;
+
+}
+
+.button-64:active,
+.button-64:hover {
+    outline: 0;
+}
+
+.button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-64:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .button-64 {
+        font-size: 28px;
+        min-width: 196px;
+
+    }
+
+
+}
+
+
+
+a {
+    text-decoration: none;
+
+}
+
+#pdi,
+#cpi,
+#cvi {
+    margin-top: 15px;
+}
+
+.image-border {
+    border: 2px solid rgb(161, 0, 255);
+    /* thickness, style, color */
+    border-radius: 10px;
+    /* optional: makes rounded corners */
+    padding: 2px;
+    /* optional: space between image & border */
+}
+
+
+
+.button-65 {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 11px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1em;
+    width: 129px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 720;
+
+}
+
+.button-65:active,
+.button-65:hover {
+    outline: 0;
+}
+
+.button-65 span {
+    background-color: rgb(5, 6, 45);
+    padding: 9px 14px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-65:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .button-65 {
+        font-size: 28px;
+        min-width: 196px;
+
+    }
+
+
+}
